@@ -1,0 +1,19 @@
+We Need to maintain a List of Customers and Customer are access
+by name
+HashMap<String,Customer> customerMap = new HashMap<>();
+5 Customers and Access it by name of a customer.
+Customers are unique so it not duplicate.
+
+Customer has 2 kind of address.
+a) office address - office address can be multiple
+office address are unique and sorted . Sorting is by city
+b) residence address - residence address can be multiple
+residence address are unique and sorted. Sorting  is by city
+
+Customer can have Orders
+Orders are unique and access by OrderId
+Order can have Products. And Products are duplicate and sorted by Price in
+descending Order.
+
+Price of Product must be come in dollar sign
+the date of product must be in US Style.

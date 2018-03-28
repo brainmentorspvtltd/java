@@ -1,0 +1,29 @@
+class Product implements Comparable<Product>{
+int id;
+String name;
+Double price;
+@Override
+public int compareTo(Product productObject){
+return productObject.price.compareTo(this.price);
+}
+}
+class Order{
+ArrayList<Product> productList = new ArrayList<>();
+int id;
+String name;
+Date orderDate;
+double amount;
+}
+class Customer{
+int id;
+String name;
+double balance;
+HashMap<String, TreeSet<Address>> addressMap = new HashMap<>();
+HashMap<Integer, Order> orderMap = new HashMap<>();
+}
+class Address{
+String state;
+String city;
+String country;
+String houseAddress;
+}

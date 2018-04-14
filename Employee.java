@@ -1,7 +1,7 @@
 // SRP
 public class Employee {
 	private int id;  // Instance Variable
-	private String name;
+	private String name; // name
 	private double salary;
 	private String companyName;
 	private String city;
